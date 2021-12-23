@@ -24,6 +24,14 @@ header {
 .features {
     /* border: 1px solid red; */
     padding: 0 20px;
+    display: flex;
+}
+
+.features > div:nth-child(2) {
+    /* border: 1px solid green; */
+    /* display: flex; */
+    width: 8px;
+
 }
 
 .flex {
@@ -78,6 +86,8 @@ header {
     
 }
 
+
+
 .get-started {
     /* border: 1px solid red; */
     padding: 14px;
@@ -110,15 +120,32 @@ main {
     /* border: 15px solid green; */
     padding: 50px;
     margin: 20px;
+    position: absolute;
+    height: 300px;
+    width: 150px;
+    border-radius: 18px;
     /* position: absolute; */
-    height: 200px;
-    width: 100px;
-    border-radius: 15px;
-    /* position: absolute; */
-    bottom: -4rem;
-    left: 4rem;
+    bottom: 7rem;
+    left: 50rem;
     transform: rotate(20deg);
     overflow: hidden;
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+   
+}
+
+.footer-img{
+    /* border: 1px solid green; */
+    margin-top:250px;
+    height: 25%;
+    width: 190px;
+    margin-right: 100px;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+    color: #d5d5d5;
+    display: flex;
 }
 
 footer {
